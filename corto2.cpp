@@ -42,7 +42,7 @@ int main()
         else
         {
             // Si en dado caso no cumple ninguna de las anteriores entonces se le pone el mensajes de las opciones y se le cierra el programa
-            cout << "Ha ingresado un tipo de usuario no valido, prueba mas tarde. Las opciones son: Estudiante, Profesional o Todos \n";
+            cout << "Ha ingresado un tipo de usuario no valida, prueba mas tarde. Las opciones son: Estudiante, Profesional o Todos \n";
             return 1;
         }
         // Se pone como la variable a comprar el optionPeople que seria la opcion digitada del usuario convertida a numero
@@ -77,7 +77,7 @@ int main()
                 break;
             default:
                 // Si no puso ninguna opcion puesto entonces se le dice que no es una opcion valida entnoces se sale temprano
-                cout << "Opcion no validad, error, prueba con opcion del 1 al 3 \n";
+                cout << "Opcion no valida, error, prueba con opcion del 1 al 3 \n";
                 return 1;
                 //Se quito el break porque pues you know te program se detuvo ya aca ya no se siguio ejecutando
             }
@@ -111,7 +111,7 @@ int main()
                 break;
             default:
                 // Si no puso ninguna opcion puesto entonces se le dice que no es una opcion valida entnoces se sale temprano
-                cout << "Opcion no validad, error, prueba con opcion del 1 al 3 \n";
+                cout << "Opcion no valida, error, prueba con opcion del 1 al 3 \n";
                 return 1;
             }
             break;
@@ -162,13 +162,13 @@ int main()
                 break;
             default:
                 // Si no puso ninguna opcion puesto entonces se le dice que no es una opcion valida entnoces se sale temprano
-                cout << "Opcion no validad, error, prueba con opcion del 1 al 6 \n";
+                cout << "Opcion no valida, error, prueba con opcion del 1 al 6 \n";
                 return 1;
             }
             break;
         default:
             // Este default nunca sucedera ya que pues esta la situacion del else antes, pero se le pone por si acaso
-            cout << "Error, contacte con un profesional (merivas@uca.edu.sv) \n";
+            cout << "Error, contacte con un profesional (merivas@uca.edu.sv o a diosito :D) \n";
             return 1;
         }
     }
@@ -199,3 +199,9 @@ int main()
 
     return 0;
 }
+
+/*
+    DERECHOS DE AUTOR
+    JOSUE EMILIANO VALDES JACOBO
+    #00003525
+*/
